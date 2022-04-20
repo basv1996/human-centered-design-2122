@@ -9,14 +9,15 @@ const video = document.getElementById('video')
 // }
 
 function startVideo() {
-    navigator.mediaDevices.getUserMedia({
-        video: { 
-            audio: false,
-            facingMode: "environment",
-            video: true,
-            autoplay: true
-        }
-    })
+    if (navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true })
+          .then(function (stream) {
+            video.srcObject = stream;
+          })
+          .catch(function (err0r) {
+            console.log("Something went wrong!");
+          });
+      }
 }
 
 //video.srcObject = mediaStream;
