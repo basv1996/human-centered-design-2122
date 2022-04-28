@@ -1,0 +1,30 @@
+{
+  "name": "chat-for-eric",
+  "version": "1.0.0",
+  "description": "chat with body language fir eric",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basv1996/human-centered-design-2122.git"
+  },
+  "author": "bas vugts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basv1996/human-centered-design-2122/issues"
+  },
+  "homepage": "https://github.com/basv1996/human-centered-design-2122#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "process": "^0.11.10",
+    "socket.io": "^4.4.1"
+  }
+}

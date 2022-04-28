@@ -1,0 +1,36 @@
+<%- include('../partials/head') %>
+<body>
+    <header>
+        <h1>Chatty for Eric</h1>
+        <nav>
+          Legenda
+          <ul>
+            <li class="happy">Happy</li>
+            <li class="neutral">Neutral</li>
+            <li class="surprised">Surprised</li>
+            <li class="disgusted">Disgusted</li>
+            <li class="fearful">Fearful</li>
+            <li class="sad">Sad</li>
+            <li class="angry">Angry</li>
+          </ul>
+        </nav>
+    </header>
+
+    <!-- <label>Your emotion is:
+        <select class="your-emotion" name="your-emotion">
+          <option value="">Select One …</option>
+          <option value="happy">Happy</option>
+          <option value="sad">Sad</option>
+          <option value="vanilla">Vanilla</option>
+        </select>
+      </label> -->
+
+    <h1>Your emotion is: <span id="emotion">Neutral</span></h1>
+    <p class="result"></p>
+    <!-- <input id="detectMe" type="button" value="detect my expression" > -->
+     <main id="main">
+      <video id="video" width="500" height="350" autoplay muted playsinline></video>
+      <%- include('../partials/form') %>
+      </main>
+</body>
+</html>

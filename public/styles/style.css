@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  nav ul{
+	list-style: none;
+	display: flex;
+  flex-wrap: wrap;
+	gap: 1em;
+}
+
+nav ul li {
+	padding: 1em;
+	border-width: 5px !important;
+}
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  section {
+    width: 50vw;
+  }
+
+  video {
+    /* width: 720px;
+    height: 560px; */
+  }
+
+  canvas {
+    position: absolute;
+    margin-left: -6em;
+  }
+
+  #form { background: rgba(0, 0, 0, 0.15); padding: 0.25rem; position: fixed; bottom: 0; left: 0; right: 0; display: flex; height: 3rem; box-sizing: border-box; backdrop-filter: blur(10px); z-index: 99;}
+      #input { border: none; padding: 0 1rem; flex-grow: 1; border-radius: 2rem; margin: 0.25rem; }
+      #input:focus { outline: none; }
+      #form > button { background: #333; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff; }
+
+      #messages {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        max-height: 50vh;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #messages > li {
+        padding: 0.5rem 1rem;
+        max-width: 280px;
+      }
+
+      .feedback {
+        position: absolute;
+        width: 100vw;
+        height: 2em;
+        bottom: 3em;
+        left: 0;
+        background-color: rgba(255,140,140,0.5);
+    }
+
+
+      .happy {
+        border: 3px solid #0add08;
+      }
+      .neutral {
+        border: 3px solid grey;
+      }
+      .surprised{
+        border: 3px solid purple;
+      }
+      .disgusted{
+        border: 3px solid #667e2c;
+      }
+      .fearful{
+        border: 3px solid black;
+      }
+      .sad{
+        border: 3px solid rgb(67, 151, 179);
+      }
+      .angry{
+        border: 3px solid red;
+      }
+
+      .right {
+        text-align: right;
+        margin-left: 10em;
+      }

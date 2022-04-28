@@ -1,5 +1,24 @@
 # Human Centered Design @cmda-minor-web 2021 - 2022
 
+## Onderzoek
+
+### Kleuren onderzoek
+Ik wil graag werken met kleuren om hier mee emotie over te kunnen brengen. Hiervoor ben ik op zoek gegaan welke kleuren welke emoties opbrengen bij mensen.
+
+- `Rood:` Gepassioneerd, agressief, belangrijk
+- `Oranje:` Speels, energiek, goedkoop
+- `Geel:` Blij, vriendelijk, waarschuwing
+- `Groen:` Natuurlijk, stabiel, welvarend
+- `Blauw:` Sereen, betrouwbaar, uitnodigend
+- `Paars:` Luxe, mysterieus, romantisch
+- `Roze:` Vrouwelijk, jong, onschuldig
+- `Bruin:` Earthy, sturdy, rustic
+- `Zwart:` Krachtig, verfijnd, edgy
+- `Wit:` Schoon, deugdzaam, gezond
+- `Grijs:` Neutraal, formeel, somber
+- `Beige:` Accentueert omringende kleuren
+
+
 Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen.
 
 > What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
@@ -14,6 +33,25 @@ Wat voor principes heb je gebruikt en getest? En is het leuk?
 
 ## Opdracht
 
+## Over Eric
+Eric is een ontwerper van 49 jaar en werkt bij Cliëntenbelang Amsterdam. Zelf woont hij in Amsterdam Zuid. Hij heeft gestudeerd aan de HKU, interaction design. Hij organiseert regelmatig design-avonden waar hij probeert om mensen met beperkingen samen te brengen met ontwerpers en makers. Eric zelf zit in een electrische rolstoel. Hij heeft niet de beschikking over de fijne motoriek. Hij houdt zich bezig met toegankelijkheid voor openbare omgevingen met betrekking tot mensen met een beperking.
+Extra informatie:
+- Scrollen op een trackpad is niet handig
+- Touchscreen op zijn laptop is niet handig
+- Gebruikt Microsoft edge als browser 
+
+## Test dag 1
+In de eerste test sessie hebben wij kennis gemaakt met Eric en heeft hij ons van alles verteld over wat hij in het dagelijks leven doet. Ook hebben we met alle studenten twee kleinschalige prototypes gemaakt om deze door Eric te laten testen. Naast deze kleine prototypes hebben wij hem ook een aantal vragen gesteld om wat meer te weten te komen over Eric. Vragen over hoe Eric bijvoorbeeld omgaat met zijn computer. Alle studenten hadden een prototype voor een copy & paste feature gemaakt en ik heb een chat systeem gemaakt om meer emotie te kunnen tonen. 
+
+### Test uitslagen
+- Eric vind de chat met een emotie detetction een leuk idee
+- Misschien beter om in plaats van het tekstvlak een kleur te geven omn de rand van het tekstblok een kleur te geven
+- De tekst font aanpassen op basis van de emotie is een leuke feature
+
+## Test dag 2
+
+Voor de 2e testdag heeft Eric zijn laptop mee genomen. Hierdoor kunnen wij zien hoe Eric zijn muis gebruikt en de dagelijkse taken op de laptop doet. Om te kopieren en plakken gebruikt Eric de muis in plaats van de keyboard shortcuts. Hij legt zijn hand op de muis en wiggelt deze heen en weer. Hierdoor kan hij teksten selecteren, kopieren en plakken.
+Eric wilt graag dat je door zo min mogelijk klikken iets kan kopieren en plakken.
 ### Ontwerpen met en voor echte mensen
 
 Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. 
@@ -117,7 +155,9 @@ De opdracht wordt beoordeeld aan de hand van onderstaande rubric. Je moet slagen
 |  | Testresultaten - Aan de hand van de tests wordt duidelijk gemaakt hoe deze hebben bijgedragen aan het verbeteren van het ontwerp of hoe dit een volgende keer beter of anders kan. | | 
 
 
+# Bronnen
 
+- Cao, J. (2021, 26 januari). 12 colours and the emotions they evoke. Creative Bloq. Geraadpleegd op 21 april 2022, van https://www.creativebloq.com/web-design/12-colours-and-emotions-they-evoke-61515112
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
