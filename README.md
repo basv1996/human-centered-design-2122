@@ -1,6 +1,6 @@
 # Human Centered Design @cmda-minor-web 2021 - 2022
 
-![Chat for Eric](https://user-images.githubusercontent.com/15678757/168099023-9d47572c-fbe2-4886-8372-382839deae62.png)
+![Chat for Eric](https://user-images.githubusercontent.com/15678757/168101413-5b7cd316-0262-4972-9d90-d73eea25aa2a.png)
 
 
 # Live Link
@@ -119,7 +119,7 @@ Eric gaf nog als feedback mee dat de tekst die laat zien welke emotie nu actief 
 #### Before
 ![Chat for eric](https://user-images.githubusercontent.com/15678757/168070053-f34847d1-2bc9-43aa-8bfe-1c23e9dd71a3.png)
 #### After
-![Chat for Eric](https://user-images.githubusercontent.com/15678757/168099023-9d47572c-fbe2-4886-8372-382839deae62.png)
+![Chat for Eric](https://user-images.githubusercontent.com/15678757/168101413-5b7cd316-0262-4972-9d90-d73eea25aa2a.png)
 
 
 
