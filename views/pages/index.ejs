@@ -1,9 +1,9 @@
 <%- include('../partials/head') %>
 <body>
     <header>
-        <h1>Chatty for Eric</h1>
+      
         <nav>
-          Legenda
+          <h1>Chose your emotion or use the camera</h1> 
           <ul>
             <li class="happy">Happy</li>
             <li class="neutral">Neutral</li>
@@ -15,20 +15,11 @@
           </ul>
         </nav>
     </header>
-
-    <!-- <label>Your emotion is:
-        <select class="your-emotion" name="your-emotion">
-          <option value="">Select One …</option>
-          <option value="happy">Happy</option>
-          <option value="sad">Sad</option>
-          <option value="vanilla">Vanilla</option>
-        </select>
-      </label> -->
-
-    <h1>Your emotion is: <span id="emotion">Neutral</span></h1>
+    <h1>Your emotion is: <span id="emotion">neutral</span></h1>
     <p class="result"></p>
-    <!-- <input id="detectMe" type="button" value="detect my expression" > -->
      <main id="main">
+       <button id="captureEmotion">Pause Video</button>
+       <button id="playEmotion">Play Video</button>
       <video id="video" width="500" height="350" autoplay muted playsinline></video>
       <%- include('../partials/form') %>
       </main>

@@ -67,10 +67,13 @@ io.on('connection', (socket) => {
     delete users[socket.id]
   });
 
-  socket.on('chat-message', (msg) => {
+  socket.on('chat-message', (msg, emotion) => {
+    //console.log("chat-messagge + msg: ", msg)
+    console.log("chat-messagge + emotion: ", emotion)
     socket.broadcast.emit('chat-message', { 
       msg: msg, 
       myName: users[socket.id],
+      emotion: emotion
       //emotionText: emotionText
      })
   });
@@ -78,9 +81,9 @@ io.on('connection', (socket) => {
   socket.on('typing', myName =>{
     users[socket.id] = myName
     typers[socket.id] = 1;
-    console.log("naampje: ", myName)
-    console.log("typersd socket id: ",  typers[socket.id] = 1)
-    console.log("object key length: ",  Object.keys(typers).length)
+    //console.log("naampje: ", myName)
+    //console.log("typersd socket id: ",  typers[socket.id] = 1)
+    //console.log("object key length: ",  Object.keys(typers).length)
     socket.broadcast.emit('typing', 
     {
       name: myName,
