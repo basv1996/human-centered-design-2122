@@ -26,6 +26,7 @@ const messages = document.getElementById('messages');
 const form = document.getElementById('form');
 const input = document.getElementById('input');
 const feedbackTxt = document.querySelector(".feedback")
+
 let emotion = 'neutral'
 
 const myName = prompt("what is your name?")
@@ -42,7 +43,7 @@ AllNavListItems.forEach(li => {
   li.addEventListener("click", (e) => {
     let cl = e.target.classList
     removeDots()
-    emotion = cl
+    emotion = cl[0]
     li.style.borderStyle = "dotted"
     emotionSpan.innerHTML = cl
     li.classList.add("spinMe")
@@ -145,7 +146,7 @@ socket.emit('new-user', myName)
 socket.on('chat-message', (data)=> {
   window.scrollTo(0, document.body.scrollHeight);
   spannetje = document.createElement("span")
-  appendMessage(`${data.myName}: ${data.msg}: ${data.emotion}`)
+  appendMessage(`${data.myName}: ${data.msg}`, data.emotion)
   clearInterval(intervalletje)
 
 });
@@ -173,13 +174,14 @@ input.addEventListener("keydown", (e) =>{
 form.addEventListener('submit', e => {
   e.preventDefault()
     const msg = input.value
-    appendMessage(`You: ${msg}`)
-    socket.emit('chat-message', msg, emotion)
+    socket.emit('chat-message', {msg, emotion})
     input.value = ''
+    appendMessage(`You: ${msg}`, emotion)
 });
 
 
-function appendMessage(msg) {
+function appendMessage(msg, emotion) {
+  console.log(emotion);
   const item = document.createElement('li');
   item.textContent = msg
   
@@ -189,12 +191,14 @@ function appendMessage(msg) {
     item.classList.add("right")
   }
   removeDots()
-  item.classList.add(emotion)
+  item.classList.add(emotion ? emotion : 'neutral')
 
   messages.appendChild(item)
   resetEmotions()
   countEmotions()
 }
+
+/////////////////////////////////////////////////
 
 function countEmotions() {
 const happyAmountSpan = document.querySelector(".happyAmountSpan")

@@ -67,13 +67,13 @@ io.on('connection', (socket) => {
     delete users[socket.id]
   });
 
-  socket.on('chat-message', (msg, emotion) => {
+  socket.on('chat-message', (data) => {
     //console.log("chat-messagge + msg: ", msg)
-    console.log("chat-messagge + emotion: ", emotion)
+    console.log("chat-messagge + emotion: ", data.msg + "  " + data.emotion)
     socket.broadcast.emit('chat-message', { 
-      msg: msg, 
+      msg: data.msg, 
       myName: users[socket.id],
-      emotion: emotion
+      emotion: data.emotion
       //emotionText: emotionText
      })
   });
