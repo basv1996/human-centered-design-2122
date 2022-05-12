@@ -37,6 +37,18 @@ In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen.
 Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? 
 Wat voor principes heb je gebruikt en getest? En is het leuk?
 
+### Ontwerpen met en voor echte mensen
+
+Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. 
+Een echt mens. 
+Je moet je ontwerp 3 keer testen. 
+Door te testen en te itereren ga je je ontwerp verbeteren. 
+Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. 
+Een _exclusive design_ ... 
+Wie is deze persoon dan voor wie je dit gaat maken? 
+Wat vindt deze persoon leuk of juist niet? 
+En hoe bedient deze persoon een computer?
+
 ### Leerdoelen
 
 - _Leren hoe je (design) principles in een ontwerp kan toepassen._
@@ -98,19 +110,7 @@ Voor de 2e testdag heeft Eric zijn laptop mee genomen. Hierdoor kunnen wij zien 
 Eric wilt graag dat je door zo min mogelijk klikken iets kan kopieren en plakken. Eric vind scrollen best wel lastig
 
 ## Test dag 3
-### Ontwerpen met en voor echte mensen
 
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. 
-Een echt mens. 
-Je moet je ontwerp 3 keer testen. 
-Door te testen en te itereren ga je je ontwerp verbeteren. 
-Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. 
-Een _exclusive design_ ... 
-Wie is deze persoon dan voor wie je dit gaat maken? 
-Wat vindt deze persoon leuk of juist niet? 
-En hoe bedient deze persoon een computer?
-
-- [Opdracht - Ontwerpen met en voor echte mensen](course/opdracht-human-centered-design.md)
 
 
 
