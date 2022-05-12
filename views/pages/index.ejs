@@ -1,7 +1,6 @@
 <%- include('../partials/head') %>
 <body>
     <header>
-      
         <nav>
           <h1>Chose your emotion or use the camera</h1> 
           <ul>
@@ -15,9 +14,14 @@
           </ul>
         </nav>
     </header>
+    <div class="achievmentsBtn">
+      <img src="images/achievments.png" alt="achievemnt image"/>
+      <p>Achievements</p>
+    </div>
     <h1>Your emotion is: <span id="emotion">neutral</span></h1>
     <p class="result"></p>
      <main id="main">
+       <%- include('../partials/achievements')%>
        <button id="captureEmotion">Pause Video</button>
        <button id="playEmotion">Play Video</button>
       <video id="video" width="500" height="350" autoplay muted playsinline></video>

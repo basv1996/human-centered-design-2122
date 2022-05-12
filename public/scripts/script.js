@@ -17,6 +17,11 @@ const angryEmotionLi = document.querySelector("li.angry")
 
 const AllNavListItems = document.querySelectorAll("nav ul li")
 
+const achievementsSection = document.querySelector(".achievmentsSection")
+const closeAchievementsBtn = document.querySelector(".closeAchievements")
+const showAchievementsButton = document.querySelector(".achievmentsBtn")
+
+
 const messages = document.getElementById('messages');
 const form = document.getElementById('form');
 const input = document.getElementById('input');
@@ -188,10 +193,18 @@ function appendMessage(msg) {
 
   messages.appendChild(item)
   resetEmotions()
-  //countEmotions()
+  countEmotions()
 }
 
 function countEmotions() {
+const happyAmountSpan = document.querySelector(".happyAmountSpan")
+const neutralAmountSpan = document.querySelector(".neutralAmountSpan")
+const suprisedAmountSpan = document.querySelector(".surprisedAmountSpan")
+const disgustedAmountSpan = document.querySelector(".disgustedAmountSpan")
+const fearfulAmountSpan = document.querySelector(".fearfulAmountSpan")
+const sadAmountSpan = document.querySelector(".sadAmountSpan")
+const angryAmountSpan = document.querySelector(".angryAmountSpan")
+
 let amountHappy = document.querySelectorAll('#messages li.happy').length;
 let amountNeutral = document.querySelectorAll('#messages li.neutral').length;
 let amountSurprised = document.querySelectorAll('#messages li.surprised').length;
@@ -199,4 +212,24 @@ let amountDisgusted = document.querySelectorAll('#messages li.disgusted').length
 let amountFearful = document.querySelectorAll('#messages li.fearful').length;
 let amountSad = document.querySelectorAll('#messages li.sad').length;
 let amountAngry = document.querySelectorAll('#messages li.angry').length;
+
+happyAmountSpan.innerHTML = amountHappy
+neutralAmountSpan.innerHTML = amountNeutral
+suprisedAmountSpan.innerHTML = amountSurprised
+disgustedAmountSpan.innerHTML = amountDisgusted
+fearfulAmountSpan.innerHTML = amountFearful
+sadAmountSpan.innerHTML = amountSad
+angryAmountSpan.innerHTML = amountAngry
 }
+
+closeAchievementsBtn.addEventListener("click", ()=> {
+  achievementsSection.classList.remove("show")
+  achievementsSection.classList.add("hide")
+})
+
+showAchievementsButton.addEventListener("click", () => {
+  achievementsSection.classList.remove("hide")
+  achievementsSection.classList.add("show")
+
+
+})
