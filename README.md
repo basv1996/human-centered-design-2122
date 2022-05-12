@@ -1,6 +1,7 @@
 # Human Centered Design @cmda-minor-web 2021 - 2022
 
-![Chat for eric](https://user-images.githubusercontent.com/15678757/168070053-f34847d1-2bc9-43aa-8bfe-1c23e9dd71a3.png)
+![Chat for Eric](https://user-images.githubusercontent.com/15678757/168099023-9d47572c-fbe2-4886-8372-382839deae62.png)
+
 
 # Live Link
 [Live link](https://chat-for-eric.herokuapp.com/)
@@ -110,6 +111,17 @@ Voor de 2e testdag heeft Eric zijn laptop mee genomen. Hierdoor kunnen wij zien 
 Eric wilt graag dat je door zo min mogelijk klikken iets kan kopieren en plakken. Eric vind scrollen best wel lastig
 
 ## Test dag 3
+
+De laatste testdag is aangebroken. Mijn chat app voor Eric is zo goed als af en Eric mag de hi-fi prototype gaan uitproberen. Eric vond het fijn dat de chat werkte en de andere chatter de feedback mee kreeg van welke emotie de verstuurder wou versturen. De animatie op de emotie blokken vond hij grappig. De extra feature voor een achievement list was Eric enorm enthousiast over. 
+### Feedback
+Eric gaf nog als feedback mee dat de tekst die laat zien welke emotie nu actief is niet erg opvalt. Deze moet ik dus gaan verplaatsen naar een betere plek. Ik kreeg als tip mee om de emotie tekst te positioneren over het video element heen.
+
+#### Before
+![Chat for eric](https://user-images.githubusercontent.com/15678757/168070053-f34847d1-2bc9-43aa-8bfe-1c23e9dd71a3.png)
+#### After
+![Chat for Eric](https://user-images.githubusercontent.com/15678757/168099023-9d47572c-fbe2-4886-8372-382839deae62.png)
+
+
 
 
 

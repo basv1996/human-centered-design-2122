@@ -43,7 +43,18 @@ nav ul li {
 }
 
 body > h1 {
-	padding-bottom: .5em;
+	position: absolute;
+	top: 35%;
+	z-index: 200;
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	width: 467px;
+	text-align: center;
+	left: 17px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
   #main > button {
