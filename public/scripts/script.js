@@ -131,8 +131,6 @@ video.addEventListener('play', () => {
   })
 
  
-
-
 /////////////////   Sockets  //////////////////
 
   socket.on('usercnt', (msg) => {
@@ -153,7 +151,6 @@ socket.on('chat-message', (data)=> {
 
 socket.on("user-connected", (myName) => {
   appendMessage(`${myName} connected`)
-  console.log(socket.id) 
 });
 
 socket.on("typing", ({name, typers}) => {
@@ -181,7 +178,6 @@ form.addEventListener('submit', e => {
 
 
 function appendMessage(msg, emotion) {
-  console.log(emotion);
   const item = document.createElement('li');
   item.textContent = msg
   
@@ -196,6 +192,7 @@ function appendMessage(msg, emotion) {
   messages.appendChild(item)
   resetEmotions()
   countEmotions()
+  stayAtBottom()
 }
 
 /////////////////////////////////////////////////
@@ -234,6 +231,8 @@ closeAchievementsBtn.addEventListener("click", ()=> {
 showAchievementsButton.addEventListener("click", () => {
   achievementsSection.classList.remove("hide")
   achievementsSection.classList.add("show")
-
-
 })
+
+function stayAtBottom() {
+messageBlockUL.scrollTop = messageBlockUL.scrollHeight
+}
