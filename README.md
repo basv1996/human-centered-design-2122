@@ -56,6 +56,19 @@ En hoe bedient deze persoon een computer?
 - _User needs begrijpen en gebruiken in je ontwerp._
 - _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
 
+## User scenario >
+### Who?
+Eric is een ontwerper van 49 jaar en werkt bij Cliëntenbelang Amsterdam. Zelf woont hij in Amsterdam Zuid. Hij heeft gestudeerd aan de HKU, interaction design. Hij organiseert regelmatig design-avonden waar hij probeert om mensen met beperkingen samen te brengen met ontwerpers en makers. Eric zelf zit in een electrische rolstoel. Hij heeft niet de beschikking over de fijne motoriek. Hij houdt zich bezig met toegankelijkheid voor openbare omgevingen met betrekking tot mensen met een beperking.
+Extra informatie:
+
+### What?
+Voor Eric zijn emoji’s niet goed genoeg. Wij wil betere en krachtigere tools om emotie en *body language* te gebruiken in chat apps zoals Signal. 
+
+### How?
+Ik wil graag doormiddel van de Face API dat er emotie gedtecteerd kan worden. Eric kan dan nadat hij zijn bericht heeft getypt zijn emotie vastleggen door op een knop te klikken.
+
+### Why?
+Dit concept zou erg leuk zijn voor Eric maar kan ook goed werken voor andere mensen.
 
 ## Exlusive Design Principles
 
